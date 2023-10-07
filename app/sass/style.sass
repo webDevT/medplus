@@ -1,0 +1,388 @@
+@import "vars"
+@import "fonts"
+
+//start global style
+body 
+    font-size: 16px 
+    color: #000
+    font-family: $main-font
+    background: #F9F8F4
+.container-fluid 
+    width: 914px 
+    max-width: 100%
+    padding-left: 0 
+    padding-right: 0 
+    max-width: 90vw
+//end gloal style
+
+//start header style
+.header 
+    padding-top: 27px 
+    padding-bottom: 27px
+    position: absolute 
+    top: 0 
+    left: 0
+    width: 100%
+    .container-fluid 
+        width: 1085px
+        display: flex 
+        justify-content: space-between 
+        align-items: center
+.menu 
+    ul 
+        display: flex 
+        padding: 0 
+        margin: 0
+        list-style: none
+        li 
+            margin: 0 33px
+        a 
+            color: #000
+            text-decoration: none 
+        a:hover 
+            color: #000
+.login-btn
+    display: flex 
+    justify-content: center 
+    align-items: center
+    height: 40px 
+    width: 100px
+    border: 2px solid #CED7D6
+    color: #000
+    text-decoration: none
+    border-radius: 50px
+.login-btn:hover
+    color: #000
+//end header style  
+
+//start main-screen 
+.main-screen 
+    padding-top: 148px
+    text-align: center
+    .h1 
+        width: 630px 
+        max-width: 100% 
+        margin-left: auto 
+        margin-right: auto
+        margin-bottom: 27px
+.h1 
+    font-size: 55px 
+    font-weight: 500
+    color: $main-color
+.sub-title
+    text-align: center
+    font-size: 18px
+.contact-btn
+    padding: 10px 27px 
+    border: 2px solid #CED7D6
+    border-radius: 50px
+    color: #000 
+    text-decoration: none
+    font-size: 17px
+    margin-top: 35px
+    display: flex 
+    justify-content: center 
+    align-items: center
+    width: 200px
+    margin-left: auto 
+    margin-right: auto
+    margin-bottom: 45px
+    font-weight: 700
+.contact-btn:hover 
+    color: #000
+.main-screen__image
+    width: 100%
+.main-screen 
+    .h2 
+        padding-top: 30px
+.h2
+    font-size: 28px 
+    color: $titles-color
+    font-weight: 500
+.text-19
+    font-size: 19px
+    margin-top: 15px
+.main-screen 
+    padding-bottom: 100px
+//end main-screen
+
+//start services style
+.services 
+    padding-bottom: 100px
+    background: #B9E4EB
+.services__item
+    text-align: center
+    width: 220px
+    margin-left: auto 
+    margin-right: auto 
+    max-width: 100%
+    .h3 
+        margin-bottom: 10px
+.services__item-icon
+    background: #4385F5
+    width: 80px 
+    height: 80px
+    border-radius: 50%
+    display: flex 
+    justify-content: center 
+    align-items: center
+    margin-top: -40px
+    margin-left: auto
+    margin-right: auto
+    margin-bottom: 29px
+.h3 
+    font-size: 21px 
+    color: $main-color
+    font-wight: 500
+//end services style 
+.menu-wrapper
+    display: flex 
+    justify-content: space-between 
+    align-items: center
+    width: 50%
+.menu 
+    transform: translateX(-50%)
+
+//start benefits style
+.benefits
+    padding-top: 100px 
+    padding-bottom: 100px
+    background: $main-color
+    color: #F9F8F4
+    .h2 
+        color: #E2F0F3
+        margin-bottom: 35px
+.benefits__img
+    width: 100%
+    margin-top: 60px
+.contact-benefits__icon
+    background: #000
+    width: 60px 
+    height: 60px 
+    border-radius: 50% 
+    display: flex 
+    justify-content: center 
+    align-items: center
+    margin-right: 20px
+.contact-benefits
+    display: flex 
+    align-items: center
+    margin-top: 40px
+    color: #F9F8F4
+    text-decoration: none
+    font-size: 20px 
+.contact-benefits:hover 
+    color: #F9F8F4
+.benefits-list
+    margin-top: 80px
+    display: flex 
+    justify-content: space-between 
+    flex-wrap: wrap
+.benefits-item
+    width: 19%
+    background: #F9F8F4
+    height: 170px   
+    padding: 34px 20px 15px 20px
+    color: #000 
+    font-size: 15.5px
+    font-weight: 500
+    margin-bottom: 13px
+.benefits-item__icon
+    height: 60px
+//end benefits style
+
+//start plans 
+.plans 
+    padding-top: 100px 
+    padding-bottom: 100px
+    background: #F2E6E6
+    .h2 
+        margin-bottom: 40px
+.plan__item
+    background: #fff
+    padding: 40px 15px 60px 15px
+    text-align: center
+    .h3--black
+        color: #000
+        margin-bottom: 20px 
+        margin-top: 20px
+
+.plans__item-icon
+    width: 80px 
+    height: 80px
+    background: #4385F5
+    border-radius: 50%
+    margin-left: auto 
+    margin-right: auto
+    display: flex 
+    justify-content: center 
+    align-items: center
+    margin-bottom: 17px
+.plans
+    .h2 
+        margin-bottom: 60px
+    li 
+        position: relative
+        padding-left: 5px
+    li:before 
+        content: '.'
+        position: relative
+        top: -4px
+      
+
+    ul 
+        list-style: none
+        padding: 0 
+        margin: 0
+.plan__item
+    height: auto
+    min-height: 100%
+//end plans 
+
+//start about style 
+.about 
+    padding-top: 100px 
+    padding-bottom: 100px
+    img 
+        width: 100%
+    .h2 
+        margin-bottom: 30px
+.about-sub-title
+    font-size: 24px 
+    color: $main-color
+    margin-bottom: 30px
+//end about style 
+
+//start cta style 
+.cta 
+    background: $main-color
+    color: #F9F8F4
+    padding-top: 100px 
+    padding-bottom: 100px
+.cta__text
+    width: 380px 
+    max-width: 100%
+    font-size: 26px 
+    font-weight: 500
+    margin-bottom: 30px
+    a 
+        color: #FDCA01
+        text-decoration: none
+//end cta style
+
+//start footer style 
+.footer 
+    padding-bottom: 44px
+    background: $main-color
+    color: #F9F8F4
+    .container-fluid 
+        width: 1085px
+    .col-lg-8
+        padding-top: 80px
+.footer-row
+    display: flex 
+.footer__text
+    width: 140px 
+    max-width: 100%
+    font-size: 13px
+//end footer style
+
+//start contact
+.contact-page
+    padding-top: 40px 
+    padding-bottom: 40px
+    background: $main-color 
+    min-height: 100vh
+    display: flex 
+    align-items: center
+.contact-page__content
+    background: #F9F8F4
+    width: 912px
+    max-width: 95vw
+    margin-left: auto 
+    margin-right: auto
+    display: flex
+.contact__info
+    width: 413px
+.contact-form
+    width: 500px 
+    background: #F2E6E6
+    padding-top: 70px 
+    padding-bottom: 70px
+    form 
+        width: 347px
+        margin-left: auto 
+        margin-right: auto 
+        max-width: 95%
+        
+    input 
+        width: 100%
+        background: #F9F8F4
+        border: none 
+        margin-bottom: 20px
+        padding: 0 23px
+        height: 40px
+        border-radius: 10px
+        outline: none
+    textarea 
+        width: 100%
+        border-radius: 10px
+        height: 115px
+        background: #F9F8F4
+        outline: none
+        border: none
+        padding: 0 23px
+        padding-top: 10px
+        margin-bottom: 20px
+    input::placeholder,
+    textarea::placeholder
+        color: #000000
+
+input:focus::placeholder,
+textarea:focus::placeholder  
+    color: transparent
+input[type="submit"]
+    background: #E84639
+    color: #fff
+.contact__info
+    display: flex 
+    justify-content: center 
+    padding-top: 68px
+.contact__info-content
+    width: 310px 
+    max-width: 100%
+.contat-us-row__icon
+    background: #000 
+    border-radius: 50%
+    width: 60px 
+    height: 60px
+    display: flex 
+    justify-content: center 
+    align-items: center
+    margin-right: 18px
+.contat-us-row
+    display: flex 
+    align-items: center
+.contact-us-row__title
+    font-size: 26px
+.contat-us-row
+    margin-bottom: 30px
+.contact-us-row__sub-title
+    font-size: 18px
+.contact-red-title
+    font-size: 26px 
+    font-weight: 500
+    color: $main-color
+.contact-yellow-title
+    font-size: 22px
+    color: #FDCA01
+    margin-bottom: 10px
+.contact__info
+    p 
+        font-size: 18px
+//end contact
+
+@import "media"
+
+
+

@@ -1,0 +1,222 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	/**/
+	.menu-row
+		width: 30px 
+		height: 2px 
+		margin-bottom: 5px 
+		background: $main-color
+	.menu-row:last-child 
+		margin-bottom: 0
+	.header 
+		position: relative
+	.menu-wrapper
+		display: none
+		position: absolute
+		top: 100% 
+		left: 0 
+		width: 100% 
+		background: $main-color
+		padding-top: 40px 
+		padding-bottom: 40px
+		padding-left: 20px 
+		padding-right: 20px
+		text-align: center
+	.menu 
+		transform: translateX(0)	
+		ul 
+			flex-direction: column-reverse
+			li 
+				margin-bottom: 30px
+			a 
+				font-size: 20px
+				color: #ced7d6
+	.menu-wrapper.active
+		display: block
+	.login-btn
+		width: 100%
+		font-size: 20px
+		height: 50px
+		color: #ced7d6
+	.header
+		padding-top: 15px 
+		padding-bottom: 15px
+	.menu-btn.active 
+		.menu-row:last-child 
+			display: none
+		.menu-row:first-child 
+			transform: rotate(45deg)
+			margin-bottom: 0
+			position: relative
+			top: 1.5px
+		.menu-row:nth-child(2) 
+			transform: rotate(-45deg)
+	.menu-row
+		transition: all .3s
+	.main-screen
+		padding-top: 50px
+	.main-screen .h1 
+		font-size: 36px
+		margin-bottom: 10px
+	.contact-btn
+		margin-top: 20px
+	.h2
+		font-size: 22px
+	.text-19
+		font-size: 16px
+	.sub-title
+		font-size: 16px
+	.benefits-item
+		width: 49%
+		margin-bottom: 2.1vw
+		padding: 15px
+		padding-top: 30px
+	.contact-page__content
+		flex-direction: column
+	.contact__info
+		width: 100%
+		justify-content: flex-start
+		padding-left: 30px 
+		padding-right: 30px
+	.contact-form
+		width: 100%
+		padding-left: 30px 
+		padding-right: 30px 
+		form 
+			width: 100%
+	.contact-page__content
+		max-width: 90vw
+	
+	
+
+	
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	/**/
+	.services__item-icon
+		margin-top: 0
+	.services
+		padding-top: 60px 
+		padding-bottom: 10px
+	.services__item
+		margin-bottom: 50px
+	.services__item-icon
+		margin-bottom: 20px
+		width: 60px 
+		height: 60px
+		img 
+			max-width: 50%
+	.h3
+		font-size: 20px
+	.plans .col-md-4
+		margin-bottom: 30px
+		height: auto
+	.plans 
+		padding-top: 60px 
+		padding-bottom: 60px
+	.benefits
+		padding-top: 60px 
+		padding-bottom: 60px
+	.plans .h2
+		margin-bottom: 40px
+	.plans__item-icon
+		width: 60px 
+		height: 60px
+		img
+			max-width: 50%
+	.about
+		padding-top: 60px 
+		padding-bottom: 60px
+		img 
+			margin-top: 40px
+		.row 
+			display: flex 
+			flex-direction: column-reverse
+	.about-sub-title
+		font-size: 20px
+	.footer__text
+		width: 100% 
+		margin-bottom: 30px
+	.cta__text 
+		font-size: 18px
+	.cta 
+		padding-top: 60px 
+		padding-bottom: 60px
+	.footer .col-lg-8
+		padding-top: 40px
+	.footer 
+		padding-bottom: 20px
+	.contact__info,
+	.contact-form
+		padding-left: 20px 
+		padding-right: 20px
+	.contact__info
+		padding-top: 30px
+	.contact-form
+		padding-bottom: 30px
+	.contat-us-row__icon 
+		margin-right: 10px
+	.contact-us-row__title
+		font-size: 22px
+	.contact-us-row__sub-title
+		font-size: 16px
+	.contact-form
+		padding-top: 30px
+	
+
+
+	
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	/**/
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
+
+
+
+

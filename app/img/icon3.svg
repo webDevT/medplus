@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40.907" height="40.907" viewBox="0 0 40.907 40.907">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Эллипс_23" data-name="Эллипс 23" cx="19.482" cy="19.482" r="19.482" transform="translate(937.18 1079.61)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Сгруппировать_172" data-name="Сгруппировать 172" transform="translate(-936.208 -1078.638)">
+    <g id="Сгруппировать_171" data-name="Сгруппировать 171">
+      <g id="Сгруппировать_170" data-name="Сгруппировать 170" clip-path="url(#clip-path)">
+        <g id="Сгруппировать_169" data-name="Сгруппировать 169">
+          <circle id="Эллипс_21" data-name="Эллипс 21" cx="7.59" cy="7.59" r="7.59" transform="translate(949.072 1087.559)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.943"/>
+          <circle id="Эллипс_22" data-name="Эллипс 22" cx="14.725" cy="14.725" r="14.725" transform="translate(941.936 1102.739)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.943"/>
+        </g>
+      </g>
+    </g>
+    <circle id="Эллипс_24" data-name="Эллипс 24" cx="19.482" cy="19.482" r="19.482" transform="translate(937.18 1079.61)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.943"/>
+  </g>
+</svg>
