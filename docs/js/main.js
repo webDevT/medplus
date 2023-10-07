@@ -10,3 +10,10 @@ $(function () {
     $("body,html").animate({ scrollTop: top }, 1500);
   });
 });
+
+if($(window).width() < 768) {
+    $('.menu a').click(function(){
+        $('.menu-wrapper').removeClass('active');
+        $('.menu-btn').removeClass('active');
+    })
+    }
