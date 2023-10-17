@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="36.985" height="34.255" viewBox="0 0 36.985 34.255">
+<svg xmlns="http://www.w3.org/2000/svg" width="37.647" height="34.255" viewBox="0 0 37.647 34.255">
   <g id="Сгруппировать_102" data-name="Сгруппировать 102" transform="translate(-769.076 -2200.069)">
     <g id="Сгруппировать_101" data-name="Сгруппировать 101">
       <g id="Сгруппировать_99" data-name="Сгруппировать 99">
         <path id="Контур_100" data-name="Контур 100" d="M772.4,2234.324h24.623a1.231,1.231,0,1,0,0-2.462H772.4a1.231,1.231,0,1,0,0,2.462Z" fill="#b2b1b1" fill-rule="evenodd"/>
       </g>
       <g id="Сгруппировать_100" data-name="Сгруппировать 100">
-        <path id="Контур_101" data-name="Контур 101" d="M783.435,2228.274h0a13.022,13.022,0,0,1-13.014-12.579l-.262-7.727a4.391,4.391,0,0,1,4.389-4.54h17.775a4.391,4.391,0,0,1,4.388,4.54l-.262,7.727A13.021,13.021,0,0,1,783.435,2228.274Z" fill="none" stroke="#b2b1b1" stroke-miterlimit="10" stroke-width="0.676"/>
-        <path id="Прямоугольник_59" data-name="Прямоугольник 59" d="M0,0H4.008a5,5,0,0,1,5,5V5a5,5,0,0,1-5,5H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(796.714 2206.91)" fill="none" stroke="#b2b1b1" stroke-miterlimit="10" stroke-width="0.676"/>
+        <path id="Контур_101" data-name="Контур 101" d="M783.435,2228.274h0a13.022,13.022,0,0,1-13.014-12.579l-.262-7.727a4.391,4.391,0,0,1,4.389-4.54h17.775a4.391,4.391,0,0,1,4.388,4.54l-.262,7.727A13.021,13.021,0,0,1,783.435,2228.274Z" fill="none" stroke="#b2b1b1" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Прямоугольник_59" data-name="Прямоугольник 59" d="M0,0H4.008a5,5,0,0,1,5,5V5a5,5,0,0,1-5,5H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(796.714 2206.91)" fill="none" stroke="#b2b1b1" stroke-miterlimit="10" stroke-width="2"/>
       </g>
     </g>
     <rect id="Прямоугольник_60" data-name="Прямоугольник 60" width="34.255" height="34.255" transform="translate(769.076 2200.069)" fill="none"/>

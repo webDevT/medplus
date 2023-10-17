@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="34.255" height="34.255" viewBox="0 0 34.255 34.255">
-  <g id="Сгруппировать_115" data-name="Сгруппировать 115" transform="translate(-397.884 -2388.865)">
-    <rect id="Прямоугольник_68" data-name="Прямоугольник 68" width="8.626" height="14.898" rx="4.313" transform="translate(398.959 2407)" fill="none" stroke="#b2b1b1" stroke-miterlimit="10" stroke-width="0.627"/>
-    <rect id="Прямоугольник_69" data-name="Прямоугольник 69" width="8.626" height="14.898" rx="4.313" transform="translate(422.448 2407)" fill="none" stroke="#b2b1b1" stroke-miterlimit="10" stroke-width="0.627"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="34.255" height="34.271" viewBox="0 0 34.255 34.271">
+  <g id="Сгруппировать_115" data-name="Сгруппировать 115" transform="translate(-397.884 -2388.849)">
+    <rect id="Прямоугольник_68" data-name="Прямоугольник 68" width="8.626" height="14.898" rx="4.313" transform="translate(398.959 2407)" fill="none" stroke="#b2b1b1" stroke-miterlimit="10" stroke-width="2"/>
+    <rect id="Прямоугольник_69" data-name="Прямоугольник 69" width="8.626" height="14.898" rx="4.313" transform="translate(422.448 2407)" fill="none" stroke="#b2b1b1" stroke-miterlimit="10" stroke-width="2"/>
     <rect id="Прямоугольник_70" data-name="Прямоугольник 70" width="34.255" height="34.255" transform="translate(397.884 2388.865)" fill="none"/>
-    <path id="Контур_106" data-name="Контур 106" d="M398.945,2417.655v-11.739a16.066,16.066,0,0,1,16.067-16.067h0a16.066,16.066,0,0,1,16.067,16.067v11.739" fill="none" stroke="#b2b1b1" stroke-miterlimit="10" stroke-width="0.627"/>
+    <path id="Контур_106" data-name="Контур 106" d="M398.945,2417.655v-11.739a16.066,16.066,0,0,1,16.067-16.067h0a16.066,16.066,0,0,1,16.067,16.067v11.739" fill="none" stroke="#b2b1b1" stroke-miterlimit="10" stroke-width="2"/>
   </g>
 </svg>

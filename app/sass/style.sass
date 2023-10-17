@@ -5,7 +5,7 @@
 body 
     font-size: 16px 
     color: #000
-    font-family: $main-font
+    font-family: $font-book
     background: #F9F8F4
 .container-fluid 
     width: 914px 
@@ -57,16 +57,17 @@ body
 
 //start main-screen 
 .main-screen 
-    padding-top: 148px
+    padding-top: 118px
     text-align: center
     .h1 
         width: 630px 
         max-width: 100% 
         margin-left: auto 
         margin-right: auto
-        margin-bottom: 27px
+        margin-bottom: 13px
 .h1 
     font-size: 55px 
+    font-family: $font-medium
     font-weight: 500
     color: $main-color
 .sub-title
@@ -79,36 +80,37 @@ body
     color: #000 
     text-decoration: none
     font-size: 17px
-    margin-top: 35px
+    margin-top: 17px
     display: flex 
     justify-content: center 
     align-items: center
     width: 200px
     margin-left: auto 
     margin-right: auto
-    margin-bottom: 45px
-    font-weight: 700
+    margin-bottom: 22px
+    font-family: $font-heavy
 .contact-btn:hover 
     color: #000
 .main-screen__image
     width: 100%
 .main-screen 
     .h2 
-        padding-top: 30px
+        padding-top: 15px
 .h2
     font-size: 28px 
     color: $titles-color
     font-weight: 500
+    font-family: $font-medium
 .text-19
     font-size: 19px
-    margin-top: 15px
+    margin-top: 7.5px
 .main-screen 
-    padding-bottom: 100px
+    padding-bottom: 70px
 //end main-screen
 
 //start services style
 .services 
-    padding-bottom: 100px
+    padding-bottom: 50px
     background: #B9E4EB
 .services__item
     text-align: center
@@ -133,7 +135,8 @@ body
 .h3 
     font-size: 21px 
     color: $main-color
-    font-wight: 500
+    font-weight: 500
+    font-family: $font-medium
 //end services style 
 .menu-wrapper
     display: flex 
@@ -144,13 +147,13 @@ body
 
 //start benefits style
 .benefits
-    padding-top: 100px 
-    padding-bottom: 100px
+    padding-top: 75px 
+    padding-bottom: 75px
     background: $main-color
     color: #F9F8F4
     .h2 
         color: #E2F0F3
-        margin-bottom: 35px
+        margin-bottom: 25px
 .benefits__img
     width: 100%
     margin-top: 60px
@@ -166,14 +169,14 @@ body
 .contact-benefits
     display: flex 
     align-items: center
-    margin-top: 40px
+    margin-top: 30px
     color: #F9F8F4
     text-decoration: none
     font-size: 20px 
 .contact-benefits:hover 
     color: #F9F8F4
 .benefits-list
-    margin-top: 80px
+    margin-top: 60px
     display: flex 
     justify-content: space-between 
     flex-wrap: wrap
@@ -250,6 +253,8 @@ body
     font-size: 24px 
     color: $main-color
     margin-bottom: 30px
+    font-family: $font-medium
+    font-weight: 500
 //end about style 
 
 //start cta style 
@@ -264,6 +269,8 @@ body
     font-size: 26px 
     font-weight: 500
     margin-bottom: 30px
+    font-family: $font-medium
+    font-weight: 500
     a 
         color: #FDCA01
         text-decoration: none
@@ -364,18 +371,23 @@ input[type="submit"]
     align-items: center
 .contact-us-row__title
     font-size: 26px
+    font-family: $font-medium
+    font-weight: 500
 .contat-us-row
     margin-bottom: 30px
 .contact-us-row__sub-title
     font-size: 18px
 .contact-red-title
     font-size: 26px 
+    font-family: $font-medium
     font-weight: 500
     color: $main-color
 .contact-yellow-title
     font-size: 22px
     color: #FDCA01
     margin-bottom: 10px
+    font-family: $font-medium
+    font-weight: 500
 .contact__info
     p 
         font-size: 18px
@@ -385,6 +397,8 @@ input[type="submit"]
     color: #F9F8F4
 .privacy-link:hover
     color: #F9F8F4
+.services__item p
+    font-style: italic
 @import "media"
 
 
